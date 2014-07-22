@@ -8,7 +8,3 @@ class App.Companies extends Spine.Controller
   constructor: ->
     super
     App.Company.fetch()
-    @render()
-
-  render: ->
-    @html @view 'index'

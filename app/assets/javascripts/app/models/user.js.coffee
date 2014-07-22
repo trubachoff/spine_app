@@ -1,6 +1,7 @@
 class App.User extends Spine.Model
   @configure 'User', 'name', 'lastname', 'phone', 'phone_code'
   @belongsTo 'company', 'App.Company'
+  @hasMany 'customers', 'App.Customer'
   @extend Spine.Model.Ajax
 
   validate: ->

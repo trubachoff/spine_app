@@ -20,6 +20,7 @@ class App extends Spine.Controller
 
     @append(@companies = new App.Companies)
     @append(@users = new App.Users)
+    @append(@customers = new App.Customers)
 
 
     Spine.Route.setup()
