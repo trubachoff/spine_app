@@ -15,15 +15,13 @@
 class App extends Spine.Controller
   constructor: ->
     super
-    @log("Start")
 
-    App.User.fetch()
-    App.Company.fetch()
+    @log("Initialize")
 
-    # Initialize controllers:
-    #  @append(@items = new App.Items)
-    #  ...
-    
+    @append(@companies = new App.Companies)
+    @append(@users = new App.Users)
+
+
     Spine.Route.setup()
 
 

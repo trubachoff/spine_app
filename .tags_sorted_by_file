@@ -1,0 +1,257 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+CompaniesController	app/controllers/companies_controller.rb	/^class CompaniesController < ApplicationController$/;"	c
+create	app/controllers/companies_controller.rb	/^  def create$/;"	f	class:CompaniesController
+destroy	app/controllers/companies_controller.rb	/^  def destroy$/;"	f	class:CompaniesController
+index	app/controllers/companies_controller.rb	/^  def index$/;"	f	class:CompaniesController
+new	app/controllers/companies_controller.rb	/^  def new$/;"	f	class:CompaniesController
+show	app/controllers/companies_controller.rb	/^  def show$/;"	f	class:CompaniesController
+update	app/controllers/companies_controller.rb	/^  def update$/;"	f	class:CompaniesController
+HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
+index	app/controllers/home_controller.rb	/^  def index$/;"	f	class:HomeController
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CompaniesHelper	app/helpers/companies_helper.rb	/^module CompaniesHelper$/;"	m
+HomeHelper	app/helpers/home_helper.rb	/^module HomeHelper$/;"	m
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+Company	app/models/company.rb	/^class Company < ActiveRecord::Base$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:NewSpineApp
+NewSpineApp	config/application.rb	/^module NewSpineApp$/;"	m
+CreateUsers	db/migrate/20140718103005_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140718103005_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+CreateCompanies	db/migrate/20140718103023_create_companies.rb	/^class CreateCompanies < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140718103023_create_companies.rb	/^  def change$/;"	f	class:CreateCompanies
+AddCompanyRefToUsers	db/migrate/20140718103232_add_company_ref_to_users.rb	/^class AddCompanyRefToUsers < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140718103232_add_company_ref_to_users.rb	/^  def change$/;"	f	class:AddCompanyRefToUsers
+RemoveLastnameFromCompanies	db/migrate/20140718104158_remove_lastname_from_companies.rb	/^class RemoveLastnameFromCompanies < ActiveRecord::Migration$/;"	c
+change	db/migrate/20140718104158_remove_lastname_from_companies.rb	/^  def change$/;"	f	class:RemoveLastnameFromCompanies
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+$document	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  var $document = $(document);$/;"	v
+Ajax.clearQueue	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    clearQueue: function() {$/;"	m
+Ajax.disable	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    disable: function(callback) {$/;"	m
+Ajax.enabled	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    enabled: true,$/;"	p
+Ajax.generateURL	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    generateURL: function() {$/;"	m
+Ajax.getCollectionURL	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    getCollectionURL: function(object) {$/;"	m
+Ajax.getScope	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    getScope: function(object) {$/;"	m
+Ajax.getURL	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    getURL: function(object) {$/;"	m
+Ajax.queue	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    queue: function(request) {$/;"	m
+Animation	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function Animation( elem, properties, options ) {$/;"	f
+Date	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^        Date.prototype.toJSON = function () {$/;"	c
+Date.toJSON	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^        Date.prototype.toJSON = function () {$/;"	m
+Events.bind	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    bind: function(ev, callback) {$/;"	m
+Events.listenTo	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    listenTo: function(obj, ev, callback) {$/;"	m
+Events.listenToOnce	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    listenToOnce: function(obj, ev, callback) {$/;"	m
+Events.one	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    one: function(ev, callback) {$/;"	m
+Events.stopListening	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    stopListening: function(obj, events, callback) {$/;"	m
+Events.trigger	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    trigger: function() {$/;"	m
+Events.unbind	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    unbind: function(ev, callback) {$/;"	m
+Extend.ajax	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    ajax: function() {$/;"	m
+Extend.url	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    url: function() {$/;"	m
+Func	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    Func = function() {};$/;"	f
+Func	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    Func.prototype = o;$/;"	c
+Include.ajax	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    ajax: function() {$/;"	m
+Include.url	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    url: function() {$/;"	m
+JSON.parse	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^        JSON.parse = function (text, reviver) {$/;"	f
+JSON.parse.walk	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            function walk(holder, key) {$/;"	f
+JSON.stringify	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^        JSON.stringify = function (value, replacer, space) {$/;"	f
+Log.log	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    log: function() {$/;"	m
+Log.logPrefix	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    logPrefix: '(App)',$/;"	p
+Log.trace	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    trace: true,$/;"	p
+Model	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  Model.prototype.on = Model.prototype.bind;$/;"	c
+Model.Ajax.Methods.extended	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    extended: function() {$/;"	m
+Model.Ajax.ajaxChange	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    ajaxChange: function(record, type, options) {$/;"	m
+Model.Ajax.ajaxFetch	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    ajaxFetch: function() {$/;"	m
+Model.Ajax.extended	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    extended: function() {$/;"	m
+Model.off	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  Model.prototype.off = Model.prototype.unbind;$/;"	m
+Model.on	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  Model.prototype.on = Model.prototype.bind;$/;"	m
+Model.setup	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  Model.setup = function(name, attributes) {$/;"	f
+String	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^        String.prototype.toJSON      =$/;"	c
+String.toJSON	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^        String.prototype.toJSON      =$/;"	m
+Tween	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^Tween.prototype = {$/;"	c
+Tween	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	f
+Tween.constructor	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	constructor: Tween,$/;"	p
+Tween.cur	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	cur: function() {$/;"	m
+Tween.init	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	init: function( elem, options, prop, end, easing, unit ) {$/;"	m
+Tween.init	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^Tween.prototype.init.prototype = Tween.prototype;$/;"	m
+Tween.propHooks._default	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	_default: {$/;"	p
+Tween.run	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	run: function( percent ) {$/;"	m
+_jQuery	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	_jQuery = window.jQuery,$/;"	v
+_load	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var _load = jQuery.fn.load;$/;"	v
+actualDisplay	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function actualDisplay( name, doc ) {$/;"	f
+add	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^			add: function() {$/;"	m
+addGetHookIf	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function addGetHookIf( conditionFn, hookFn ) {$/;"	f
+addToPrefiltersOrTransports	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function addToPrefiltersOrTransports( structure ) {$/;"	f
+ajaxConvert	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function ajaxConvert( s, response, jqXHR, isSuccess ) {$/;"	f
+ajaxExtend	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function ajaxExtend( target, src ) {$/;"	f
+ajaxHandleResponses	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function ajaxHandleResponses( s, jqXHR, responses ) {$/;"	f
+augmentWidthOrHeight	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {$/;"	f
+boolHook.set	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	set: function( elem, value, name ) {$/;"	m
+buildParams	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function buildParams( prefix, obj, traditional, add ) {$/;"	f
+cloneCopyEvent	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function cloneCopyEvent( src, dest ) {$/;"	f
+completed	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function completed() {$/;"	f
+computeStyleTests	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	function computeStyleTests() {$/;"	f
+createActiveXHR	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function createActiveXHR() {$/;"	f
+createFxNow	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function createFxNow() {$/;"	f
+createOptions	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function createOptions( options ) {$/;"	f
+createSafeFragment	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function createSafeFragment( document ) {$/;"	f
+createStandardXHR	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function createStandardXHR() {$/;"	f
+createTween	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function createTween( value, prop, animation ) {$/;"	f
+csrfParam	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^      var csrfParam = $('meta[name=csrf-param]').attr('content');$/;"	v
+cssExpand	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var cssExpand = [ "Top", "Right", "Bottom", "Left" ];$/;"	v
+ctor	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+curCSS	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	curCSS = function( elem, name, computed ) {$/;"	f
+cx	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    var cx,$/;"	v
+dataAttr	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function dataAttr( elem, key, data ) {$/;"	f
+dataType	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		var dataType,$/;"	v
+defaultDisplay	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function defaultDisplay( nodeName ) {$/;"	f
+defaultPrefilter	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function defaultPrefilter( elem, props, opts ) {$/;"	f
+detach	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function detach() {$/;"	f
+disableScript	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function disableScript( elem ) {$/;"	f
+docElem	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var docElem = window.document.documentElement;$/;"	v
+f	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    function f(n) {$/;"	f
+fixCloneNodeIssues	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function fixCloneNodeIssues( src, dest ) {$/;"	f
+fixDefaultChecked	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function fixDefaultChecked( elem ) {$/;"	f
+fn	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^				fn = function( elem, key, value ) {$/;"	f
+fontWeight	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		fontWeight: "400"$/;"	p
+genFx	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function genFx( type, includeWidth ) {$/;"	f
+genFx.which.height	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		attrs = { height: type },$/;"	p
+getAll	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function getAll( context, tag ) {$/;"	f
+getStyles	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	getStyles = function( elem ) {$/;"	f
+getStyles	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var getStyles, curCSS,$/;"	v
+getWidthOrHeight	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function getWidthOrHeight( elem, name, extra ) {$/;"	f
+getWindow	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function getWindow( elem ) {$/;"	f
+hooks.empty.fire	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^			hooks.empty.fire = function() {$/;"	f
+i	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		var i, prop, copy,$/;"	v
+i	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var i;$/;"	v
+iframe	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var iframe,$/;"	v
+init	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^init.prototype = jQuery.fn;$/;"	c
+inspectPrefiltersOrTransports	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR ) {$/;"	f
+inspectPrefiltersOrTransports.inspect	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	function inspect( dataType ) {$/;"	f
+internalData	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function internalData( elem, name, data, pvt \/* Internal Use Only *\/ ) {$/;"	f
+internalRemoveData	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function internalRemoveData( elem, name, pvt ) {$/;"	f
+isArray	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  isArray = function(value) {$/;"	f
+isArraylike	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function isArraylike( obj ) {$/;"	f
+isBlank	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  isBlank = function(value) {$/;"	f
+isEmptyDataObject	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function isEmptyDataObject( obj ) {$/;"	f
+isHidden	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var isHidden = function( elem, el ) {$/;"	f
+jQuery.Callbacks	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.Callbacks = function( options ) {$/;"	f
+jQuery.Event	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.Event = function( src, props ) {$/;"	c
+jQuery.Event.isDefaultPrevented	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	isDefaultPrevented: returnFalse,$/;"	p
+jQuery.Event.isImmediatePropagationStopped	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	isImmediatePropagationStopped: returnFalse,$/;"	p
+jQuery.Event.isPropagationStopped	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	isPropagationStopped: returnFalse,$/;"	p
+jQuery.Event.preventDefault	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	preventDefault: function() {$/;"	m
+jQuery.Event.stopImmediatePropagation	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	stopImmediatePropagation: function() {$/;"	m
+jQuery.Event.stopPropagation	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	stopPropagation: function() {$/;"	m
+jQuery._evalUrl	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery._evalUrl = function( url ) {$/;"	f
+jQuery.acceptData	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.acceptData = function( elem ) {$/;"	f
+jQuery.attrHooks.contenteditable.set	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		set: function( elem, value, name ) {$/;"	m
+jQuery.attrHooks.style.get	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		get: function( elem ) {$/;"	m
+jQuery.attrHooks.style.set	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		set: function( elem, value ) {$/;"	m
+jQuery.attrHooks.value.set	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		set: function( elem, value, name ) {$/;"	m
+jQuery.cssHooks.opacity.get	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		get: function( elem, computed ) {$/;"	m
+jQuery.cssHooks.opacity.set	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		set: function( elem, value ) {$/;"	m
+jQuery.easing.linear	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	linear: function( p ) {$/;"	m
+jQuery.easing.swing	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	swing: function( p ) {$/;"	m
+jQuery.event.global	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	global: {},$/;"	p
+jQuery.event.special.change.handle	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		handle: function( event ) {$/;"	m
+jQuery.event.special.change.setup	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		setup: function() {$/;"	m
+jQuery.event.special.change.teardown	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		teardown: function() {$/;"	m
+jQuery.event.special.submit.postDispatch	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		postDispatch: function( event ) {$/;"	m
+jQuery.event.special.submit.setup	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		setup: function() {$/;"	m
+jQuery.event.special.submit.teardown	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		teardown: function() {$/;"	m
+jQuery.expr.filters.animated	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.expr.filters.animated = function( elem ) {$/;"	f
+jQuery.expr.filters.hidden	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.expr.filters.hidden = function( elem ) {$/;"	f
+jQuery.expr.filters.visible	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.expr.filters.visible = function( elem ) {$/;"	f
+jQuery.filter	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.filter = function( expr, elems, not ) {$/;"	f
+jQuery.fn.delay	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.fn.delay = function( time, type ) {$/;"	f
+jQuery.fn.load	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.fn.load = function( url, params, callback ) {$/;"	f
+jQuery.fn.ready	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.fn.ready = function( fn ) {$/;"	f
+jQuery.fn.size	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.fn.size = function() {$/;"	f
+jQuery.fx.speeds._default	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	_default: 400$/;"	p
+jQuery.fx.speeds.fast	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	fast: 200,$/;"	p
+jQuery.fx.speeds.slow	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	slow: 600,$/;"	p
+jQuery.fx.start	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.fx.start = function() {$/;"	f
+jQuery.fx.stop	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.fx.stop = function() {$/;"	f
+jQuery.fx.tick	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.fx.tick = function() {$/;"	f
+jQuery.fx.timer	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.fx.timer = function( timer ) {$/;"	f
+jQuery.noConflict	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.noConflict = function( deep ) {$/;"	f
+jQuery.offset.setOffset	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	setOffset: function( elem, options, i ) {$/;"	m
+jQuery.param	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.param = function( a, traditional ) {$/;"	f
+jQuery.parseHTML	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.parseHTML = function( data, context, keepScripts ) {$/;"	f
+jQuery.parseJSON	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.parseJSON = function( data ) {$/;"	f
+jQuery.parseXML	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.parseXML = function( data ) {$/;"	f
+jQuery.propHooks.selected.get	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		get: function( elem ) {$/;"	m
+jQuery.ready.promise	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.ready.promise = function( obj ) {$/;"	f
+jQuery.speed	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.speed = function( speed, easing, fn ) {$/;"	f
+jQuery.swap	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^jQuery.swap = function( elem, options, callback, args ) {$/;"	f
+jQuery.valHooks.button.get	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		get: function( elem, name ) {$/;"	m
+jQuery.valHooks.button.set	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		set: nodeHook.set$/;"	p
+letterSpacing	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		letterSpacing: "0",$/;"	p
+makeArray	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  makeArray = function(args) {$/;"	f
+manipulationTarget	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function manipulationTarget( elem, content ) {$/;"	f
+meta."	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            '"' : '\\\\"',$/;"	p
+meta.\	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            '\\\\': '\\\\\\\\'$/;"	p
+meta.b	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            '\\b': '\\\\b',$/;"	p
+meta.f	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            '\\f': '\\\\f',$/;"	p
+meta.n	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            '\\n': '\\\\n',$/;"	p
+meta.r	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            '\\r': '\\\\r',$/;"	p
+meta.t	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            '\\t': '\\\\t',$/;"	p
+nodeHook	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var nodeHook, boolHook,$/;"	v
+nodeHook.set	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^		set: function( elem, value, name ) {$/;"	m
+nodeNames	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var nodeNames = "abbr|article|aside|audio|bdi|canvas|data|datalist|details|figcaption|figure|footer|" +$/;"	v
+nonce	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var nonce = jQuery.now();$/;"	v
+oldCallbacks	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var oldCallbacks = [],$/;"	v
+opt.complete	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	opt.complete = function() {$/;"	f
+options.type	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^          type: method || 'GET', data: data, dataType: dataType,$/;"	p
+options.xhrFields.withCredentials	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^            withCredentials: withCredentials$/;"	p
+optionsCache	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var optionsCache = {};$/;"	v
+propFilter	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function propFilter( props, specialEasing ) {$/;"	f
+quote	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    function quote(string) {$/;"	f
+r20	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var r20 = \/%20\/g,$/;"	v
+rails	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^  var rails;$/;"	v
+rbrace	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var rbrace = \/^(?:\\{[\\w\\W]*\\}|\\[[\\w\\W]*\\])$\/,$/;"	v
+rclass	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var rclass = \/[\\t\\r\\n\\f]\/g;$/;"	v
+readyList	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var readyList;$/;"	v
+restoreScript	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function restoreScript( elem ) {$/;"	f
+return	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	return new Tween.prototype.init( elem, options, prop, end, easing );$/;"	c
+return.init	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	return new Tween.prototype.init( elem, options, prop, end, easing );$/;"	m
+return.slice	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    return Array.prototype.slice.call(args, 0);$/;"	m
+return.toString	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    return Object.prototype.toString.call(value) === '[object Array]';$/;"	m
+returnFalse	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function returnFalse() {$/;"	f
+returnTrue	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function returnTrue() {$/;"	f
+rfocusable	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var rfocusable = \/^(?:input|select|textarea|button|object)$\/i,$/;"	v
+rformElems	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var rformElems = \/^(?:input|select|textarea)$\/i,$/;"	v
+risSimple	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var risSimple = \/^.[^:#\\[\\.,]*$\/;$/;"	v
+rneedsContext	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var rneedsContext = jQuery.expr.match.needsContext;$/;"	v
+rreturn	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var rreturn = \/\\r\/g;$/;"	v
+rvalidtokens	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var rvalidtokens = \/(,)|(\\[|{)|(}|])|"(?:[^"\\\\\\r\\n]|\\\\["\\\\\\\/bfnrt]|\\\\u[\\da-fA-F]{4})*"\\s*:?|true|false|null|-?(?!0\\d)\\d+(?:\\.\\d+|)(?:[eE][+-]?\\d+|)\/g;$/;"	v
+safeActiveElement	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function safeActiveElement() {$/;"	f
+setGlobalEval	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function setGlobalEval( elems, refElements ) {$/;"	f
+setPositiveNumber	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function setPositiveNumber( elem, value, subtract ) {$/;"	f
+showHide	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function showHide( elements, show ) {$/;"	f
+sibling	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function sibling( cur, dir ) {$/;"	f
+str	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^    function str(key, holder) {$/;"	f
+strundefined	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^var strundefined = typeof undefined;$/;"	v
+support.shrinkWrapBlocks	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^	support.shrinkWrapBlocks = function() {$/;"	f
+vendorPropName	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function vendorPropName( style, name ) {$/;"	f
+winnow	public/assets/application-5da4f3616c11f505e6f6056b2b3266e3.js	/^function winnow( elements, qualifier, not ) {$/;"	f
+CompaniesControllerTest	test/controllers/companies_controller_test.rb	/^class CompaniesControllerTest < ActionController::TestCase$/;"	c
+HomeControllerTest	test/controllers/home_controller_test.rb	/^class HomeControllerTest < ActionController::TestCase$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+CompaniesHelperTest	test/helpers/companies_helper_test.rb	/^class CompaniesHelperTest < ActionView::TestCase$/;"	c
+HomeHelperTest	test/helpers/home_helper_test.rb	/^class HomeHelperTest < ActionView::TestCase$/;"	c
+UsersHelperTest	test/helpers/users_helper_test.rb	/^class UsersHelperTest < ActionView::TestCase$/;"	c
+CompanyTest	test/models/company_test.rb	/^class CompanyTest < ActiveSupport::TestCase$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c

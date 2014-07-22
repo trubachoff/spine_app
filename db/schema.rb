@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140718104158) do
+ActiveRecord::Schema.define(version: 20140722115112) do
 
   create_table "companies", force: true do |t|
     t.string   "title"
@@ -20,6 +20,20 @@ ActiveRecord::Schema.define(version: 20140718104158) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "customers", force: true do |t|
+    t.string   "name"
+    t.string   "lastname"
+    t.string   "email"
+    t.string   "phone"
+    t.string   "phone_code"
+    t.string   "status",     default: "pending"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+  end
+
+  add_index "customers", ["user_id"], name: "index_customers_on_user_id"
 
   create_table "users", force: true do |t|
     t.string   "name"

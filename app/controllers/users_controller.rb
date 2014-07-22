@@ -11,8 +11,9 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = Company.new params[:user]
-    render json: @user
+    @user = User.new(user_params)
+    render nothing: true
+    head :bad_request if !@user.save
   end
 
   def new
@@ -20,12 +21,18 @@ class UsersController < ApplicationController
   end
 
   def update
-    @duser = User.find(params[:id])
+    @user = User.find params[:id]
+    render nothing: true
+    head :bad_request if !@user.update(user_params)
   end
-    
+
   def destroy
-    @user = User.find(params[:id])
+    @user = User.find(users_params)
     @user.destroy
+  end
+
+  def user_params
+    params.require(:user).permit(:name, :lastname, :phone, :phone_code, :company_id)
   end
 
 end

@@ -1,7 +1,6 @@
 class App.User extends Spine.Model
   @configure 'User', 'name', 'lastname', 'phone', 'phone_code'
   @belongsTo 'company', 'App.Company'
-  
   @extend Spine.Model.Ajax
 
   validate: ->
@@ -12,4 +11,6 @@ class App.User extends Spine.Model
 
   fullName: -> [@name, @lastname].join(' ')
 
-  #addUser(user): ->
+  @addUser: (user) ->
+    console.log 'addUser: ', user
+    App.User.create user

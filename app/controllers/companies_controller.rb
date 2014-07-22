@@ -1,5 +1,5 @@
 class CompaniesController < ApplicationController
- 
+
   def index
     @companies = Company.all
     render json: @companies
@@ -11,8 +11,9 @@ class CompaniesController < ApplicationController
   end
 
   def create
-    @company = Company.new params[:company]
-    render json: @company
+    @company = Company.new company_params
+    render nothing: true
+    # render json: @company
   end
 
   def new
@@ -21,11 +22,17 @@ class CompaniesController < ApplicationController
 
   def update
     @company = Company.find params[:id]
+    render nothing: true
+    head :bad_request if !@company.update(user_params)
   end
 
   def destroy
     @company = Company.find params[:id]
     @company.destroy
   end
-  
+
+  def company_params
+    params.require(:company).permit(:title, :phone, :phone_code)
+  end
+
 end
