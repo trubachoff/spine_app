@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.0'
 # Slim
 gem 'slim', '~>2.0.2'
 gem 'slim-rails', '~>2.1.5'
+gem 'skim'
 
 # SpineJS
 gem 'eco-rails'
@@ -41,8 +42,8 @@ gem 'spine-rails'
 # Bootstrap
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
+gem 'autoprefixer-rails'
 
 # Sprockets
 gem 'sprockets'
 gem 'sprockets-rails'
-

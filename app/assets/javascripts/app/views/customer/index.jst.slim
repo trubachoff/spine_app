@@ -1,0 +1,21 @@
+h1 Spine App
+
+table.table
+  thead
+    tr
+      th Name
+      th Lastname
+      th e-mail
+      th colspan=2 phone
+      th Status
+  tbody
+    - for customer in @customers:
+      tr
+        td = customer.name
+        td = customer.lastname
+        td = customer.email
+        td = customer.phone_code
+        td = customer.phone
+        td = customer.status
+
+- console.log(@customers)

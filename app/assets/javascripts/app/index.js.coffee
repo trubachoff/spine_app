@@ -5,6 +5,7 @@
 #= require spine/ajax
 #= require spine/route
 #= require spine/relation
+#= require skim
 
 #= require_tree ./lib
 #= require_self
@@ -18,12 +19,10 @@ class App extends Spine.Controller
 
     @log("Initialize")
 
+    @append(@customers = new App.Customers)
     @append(@companies = new App.Companies)
     @append(@users = new App.Users)
-    @append(@customers = new App.Customers)
-
 
     Spine.Route.setup()
-
 
 window.App = App
