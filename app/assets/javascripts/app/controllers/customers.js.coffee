@@ -1,50 +1,61 @@
 class App.Customers extends Spine.Controller
 
+  elements:
+    '#table': 'table'
+
   constructor: ->
     super
+    @log "App.Customers constructor"
     @filter.query_arr = []
 
     App.Customer.bind 'refresh change', => @render()
     App.Customer.fetch()
+
+    @table.bind "change input[type=checkbox]", => @filter()
 
   events:
     "change input[type=checkbox]": "filter"
     "click [data-type=edit]": "edit"
     "click [data-type=delete]": "delete"
 
-  # change: (params) ->
-  #   @render()
+  render: =>
+    @customers = App.Customer.all() if !@customers
+    @log('App.Customer render:', @customers)
+    @table.html(@view('customer/index')(customers: @customers))
 
-  customers: ->
-    @customers = App.Customer.all()
-    @log "App.Customers.all()", @customers
-
-  render: ->
-    @log('App.Customer render')
-    @html @view('customer/index')(customers: @customers)
-
-  filter: (e) ->
+  filter: (e) =>
     target = $(e.target)
 
-    toggle = (query_arr, item) ->
+    toggle = (query_arr, item, checked) ->
       n = query_arr.indexOf(item)
-      if n isnt -1
+      if n isnt -1 && !checked
         query_arr.splice(n, 1)
-      else
+      else if checked
         query_arr.push(item)
 
     switch target.attr("data-type").toLowerCase()
       when "pending"
-        toggle @filter.query_arr, "pending"
+        toggle @filter.query_arr, "pending", target.prop("checked")
       when "contract"
-        toggle @filter.query_arr, "contract"
+        toggle @filter.query_arr, "contract", target.prop("checked")
       when "sale"
-        toggle @filter.query_arr, "sale"
+        toggle @filter.query_arr, "sale", target.prop("checked")
 
     @customers = App.Customer.filter(@filter.query_arr)
+    @render();
 
-  edit: (e) ->
+  edit: (e) =>
     @log('App.Customers edit ')
 
-  delete: ->
-    @log('App.Customers delete')
+  delete: (e) =>
+    # item = $(e.target)
+    # @log('App.Customers delete:', item)
+    # item.destroy() if confirm('Are you sure?')
+
+class NewCustomer extends Spine.Controller
+  constructor: ->
+    super
+
+class EditCustomer extends Spine.Controller
+  constructor: ->
+    super

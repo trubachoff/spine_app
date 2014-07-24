@@ -1,17 +1,3 @@
-<div class="container" role="main">
-  <h1>Spine App</h1>
-  <div class="btn-group" data-toggle="">
-    <label class="btn btn-default">
-      <input class="filter" data-type="pending" type="checkbox"> Pending
-    </label>
-    <label class="btn btn-default">
-      <input class="filter" data-type="contract" type="checkbox"> Contract
-    </label>
-    <label class="btn btn-default">
-      <input class="filter" data-type="sale" type="checkbox"> Sale
-    </label>
-  </div>
-
   <table class='table' id="customers-table">
     <thead>
       <tr>
@@ -20,7 +6,7 @@
         <th>e-mail</th>
         <th colspan="2">phone</th>
         <th>status</th>
-        <th colspan="2"> </th>
+        <th colspan="3"> </th>
       </tr>
     </thead>
     <tbody>
@@ -33,8 +19,9 @@
             <td><%= customer.phone_code %></td>
             <td><%= customer.phone %></td>
             <td><%= customer.status %></td>
-            <td><a data-type="edit" href="#edit">edit</a></td>
-            <td><a data-type="delete" href="#delete">delete</a></td>
+            <td class="editor"><a data-type="new" href="#new"><i class="fa fa-plus"></i><span class="hide">new</span></a></td>
+            <td class="editor"><a data-type="edit" href="#edit"><i class="fa fa-arrow-down"></i><span class="hide">edit</sapn></a></td>
+            <td class="editor"><a data-type="delete" href="#delete"><i class="fa fa-times"></i><span class="hide">delete</sapn></a></td>
           </tr>
         <% end %>
       <% else: %>
@@ -46,6 +33,3 @@
       <% end %>
     </tbody>
   </table>
-  <% console.log(@customers) %>
-
-</div>

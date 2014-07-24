@@ -4,16 +4,11 @@ class App.Customer extends Spine.Model
   @extend Spine.Model.Ajax
 
   @filter: (query) ->
-    console.log "App.Customer query:", query
+    # console.log "App.Customer query:", query
 
-    return @all() unless query || query != []
+    return @all() if query.length == 0
 
     @select (item) ->
-      res = false
-      for e in query
-        if e is item.status
-          res = true
-          break
-      res
+      item.status in query
 
   fullName: -> [@name, @lastname].join(' ')
