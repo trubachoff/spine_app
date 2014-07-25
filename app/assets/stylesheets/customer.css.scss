@@ -1,3 +1,15 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+td.editor {
+  width: 30px;
+}
+td.phone_code {
+  width: 30px;
+  text-align: right;
+}
+td.phone {
+  text-align: left;
+  width: 230px;
+}

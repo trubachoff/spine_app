@@ -5,7 +5,7 @@ class App.Customers extends Spine.Controller
 
   constructor: ->
     super
-    @log "App.Customers constructor"
+    @log "Customers constructor"
     @filter.query_arr = []
 
     App.Customer.bind 'refresh change', => @render()
@@ -15,12 +15,14 @@ class App.Customers extends Spine.Controller
 
   events:
     "change input[type=checkbox]": "filter"
+
+    "click [data-type=show]": "show"
     "click [data-type=edit]": "edit"
     "click [data-type=delete]": "delete"
 
   render: =>
     @customers = App.Customer.all() if !@customers
-    @log('App.Customer render:', @customers)
+    @log('Customer render:', @customers)
     @table.html(@view('customer/index')(customers: @customers))
 
   filter: (e) =>
@@ -44,18 +46,22 @@ class App.Customers extends Spine.Controller
     @customers = App.Customer.filter(@filter.query_arr)
     @render();
 
+  show: (e) =>
+    alert "Coming soon"
+
   edit: (e) =>
-    @log('App.Customers edit ')
+    alert "Coming soon"
 
   delete: (e) =>
+    alert "Coming soon"
     # item = $(e.target)
     # @log('App.Customers delete:', item)
-    # item.destroy() if confirm('Are you sure?')
-
-class NewCustomer extends Spine.Controller
-  constructor: ->
-    super
-
-class EditCustomer extends Spine.Controller
-  constructor: ->
-    super
+    #item.destroy() if confirm('Are you sure?')
+#
+# class NewCustomer extends Spine.Controller
+#   constructor: ->
+#     super
+#
+# class EditCustomer extends Spine.Controller
+#   constructor: ->
+#     super

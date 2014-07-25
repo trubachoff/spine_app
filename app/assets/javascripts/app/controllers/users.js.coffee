@@ -7,4 +7,5 @@ class App.Users extends Spine.Controller
 
   constructor: ->
     super
+    @log 'Users constructor'
     App.User.fetch()
