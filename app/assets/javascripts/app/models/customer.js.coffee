@@ -10,3 +10,4 @@ class App.Customer extends Spine.Model
       item.status in query
 
   fullName: -> [@name, @lastname].join(' ')
+  fullPhone: -> "(#{@phone_code}) #{@phone}"

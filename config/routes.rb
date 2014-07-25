@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   resources :customers
   resources :events
 
-  root to: "home#index"
+  root to: redirect("customers")
 end

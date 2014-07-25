@@ -2,12 +2,18 @@ class CustomersController < ApplicationController
 
   def index
     @customers = Customer.all
-    render json: @customers
+    respond_to do |format|
+      format.html
+      format.json { render json: @customers }
+    end
   end
 
   def show
     @customer = Customer.find params[:id]
-    render json: @customer
+    respond_to do |format|
+      format.html
+      format.json { render json: @customer }
+    end
   end
 
   def create
@@ -28,6 +34,7 @@ class CustomersController < ApplicationController
 
   def destroy
     @customer = Customer.find params[:id]
+    render nothing: true
     @customer.destroy
   end
 

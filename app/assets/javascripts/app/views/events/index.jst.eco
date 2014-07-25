@@ -1,4 +1,4 @@
-<table class='table'>
+<table class='table' id="events-table">
   <thead>
     <tr>
       <th>name</th>
@@ -6,20 +6,20 @@
       <th>e-mail</th>
       <th colspan="2">phone</th>
       <th>status</th>
-      <th></th>
+      <th colspan="3"> </th>
     </tr>
   </thead>
   <tbody>
-    <% if @customers && @customers.length: %>
-      <% for customer in @customers: %>
+    <% if @events && @events.length: %>
+      <% for event in @events: %>
         <tr>
-          <td><%= customer.name %></td>
-          <td><%= customer.lastname %></td>
-          <td><%= customer.email %></td>
-          <td class="phone_code">(<%= customer.phone_code %>)</td>
-          <td class="phone"><%= customer.phone %></td>
-          <td><%= customer.status %></td>
-          <td class="show"><a data-type="show" href="#show"><i class="fa fa-arrow-right"></i><span class="hide">edit</sapn></a></td>
+          <td><%= event.email %></td>
+          <td><%= event.comment %></td>
+          <td><%= event.kind %></td>
+          <td><%= event.status %></td>
+          <td class="editor"><a data-type="new" href="#new"><i class="fa fa-plus"></i><span class="hide">new</span></a></td>
+          <td class="editor"><a data-type="edit" href="#edit"><i class="fa fa-arrow-down"></i><span class="hide">edit</sapn></a></td>
+          <td class="editor"><a data-type="delete" href="#delete"><i class="fa fa-times"></i><span class="hide">delete</sapn></a></td>
         </tr>
       <% end %>
     <% else: %>
